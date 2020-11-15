@@ -2,13 +2,15 @@ import firebase from 'firebase/app'
 import 'firebase/firestore'
 
 const firebaseConfig = {
-    apiKey: "AIzaSyAOPGA2CFTkrkpoZO8M2KHnaxov8ClsyMc",
-    authDomain: "evernote-clone-68586.firebaseapp.com",
-    databaseURL: "https://evernote-clone-68586.firebaseio.com",
-    projectId: "evernote-clone-68586",
-    storageBucket: "evernote-clone-68586.appspot.com",
-    messagingSenderId: "1074965089605",
-    appId: "1:1074965089605:web:d4906a223435b6a0b9422c"
-  };
+  apiKey: "AIzaSyCrAgq_-TaEQCnYG-MJwWCe48IQe5M_B3g",
+  authDomain: "evernote-439be.firebaseapp.com",
+  databaseURL: "https://evernote-439be.firebaseio.com",
+  projectId: "evernote-439be",
+  storageBucket: "evernote-439be.appspot.com",
+  messagingSenderId: "200122891296",
+  appId: "1:200122891296:web:a8017fd51d4dc2fb76d045"
+};
+// Initialize Firebase
+firebase.initializeApp(firebaseConfig);
 
-  firebaseConfig.initializeApp(firebaseConfig)
+export default firebaseConfig
